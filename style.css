@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("color.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered-text {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
