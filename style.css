@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("color.gif");
+  /* background-image: url("color.gif"); */
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -12,11 +13,44 @@ body {
   justify-content: center;
 }
 
-.centered-text {
-  color: white;
+/* .centered-text {
+  color: black;
   font-size: 24px;
   text-align: center;
+} */
+
+.centered-text {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  animation: rainbow 3s infinite;
 }
+
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  16% {
+    color: orange;
+  }
+  33% {
+    color: yellow;
+  }
+  50% {
+    color: green;
+  }
+  66% {
+    color: blue;
+  }
+  83% {
+    color: indigo;
+  }
+  100% {
+    color: violet;
+  }
+}
+
 
 @media (max-width: 768px) {
   .centered-text {
